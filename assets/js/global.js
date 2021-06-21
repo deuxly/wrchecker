@@ -4,10 +4,10 @@ function welcomeMsg() {
 
     const linkTiktokGua = `<a href="https://vt.tiktok.com/ZSJXQj7JX/" target="_blank">tiktok</a>`
 
-    const msg4 = `<p class="animation mb-0 text-truncate">Follow ${linkTiktokGua} gw ya</p>`;
-    const msg5 = `<p class="animation mb-0 text-truncate">Jangan lupa follow sosmed gua dibawah ya</p>`;
+    const msg1 = `<p class="animation mb-0 text-truncate">Follow ${linkTiktokGua} gw ya</p>`;
+    const msg2 = `<p class="animation mb-0 text-truncate">Jangan lupa follow sosmed gua dibawah ya</p>`;
 
-    let arrayEl = [msg4, msg5];
+    let arrayEl = [msg1, msg2];
     let arrayMax = 2;
     setInterval(() => {
         welcomeMsgEl.innerHTML = arrayEl[array];
