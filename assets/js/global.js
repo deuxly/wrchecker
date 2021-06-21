@@ -8,7 +8,7 @@ function welcomeMsg() {
     const msg5 = `<p class="animation mb-0 text-truncate">Jangan lupa follow sosmed gua dibawah ya</p>`;
 
     let arrayEl = [msg4, msg5];
-    let arrayMax = 5;
+    let arrayMax = 2;
     setInterval(() => {
         welcomeMsgEl.innerHTML = arrayEl[array];
 
